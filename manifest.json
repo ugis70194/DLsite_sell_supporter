@@ -1,0 +1,16 @@
+{
+    "name": "DLsite sell supporter",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "[low, high]の価格の商品のみを表示する",
+    "permissions": ["scripting", "storage"],
+    "action":{
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+      "matches": ["https://www.dlsite.com/*/works/*", "https://www.dlsite.com/*/fsr/*"],
+      "js": [
+        "content.js"
+      ]
+    }]
+  }
