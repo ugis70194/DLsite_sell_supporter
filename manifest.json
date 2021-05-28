@@ -8,7 +8,7 @@
       "default_popup": "popup.html"
     },
     "content_scripts": [{
-      "matches": ["https://www.dlsite.com/*/works/*", "https://www.dlsite.com/*/fsr/*"],
+      "matches": ["https://www.dlsite.com/*/works/*", "https://www.dlsite.com/*/fsr/*", "https://www.dlsite.com/*/circle/*"],
       "js": [
         "content.js"
       ]

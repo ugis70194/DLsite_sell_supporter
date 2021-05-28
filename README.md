@@ -10,7 +10,10 @@ Chrome拡張として読み込むとブラウザ右上の拡張機能一覧に[D
 ![](./sample.png)  
 上のフォームに表示したい価格の下限、下のフォームに上限を入力して決定を押すと、値が保存されます。
 
-例えば上のフォームに0, 下のフォームに1000と入力して[DLsite](https://www.dlsite.com/home/works/discount)にアクセスしてみると、  
+[DLsite](https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG44418.html)にアクセスすると、初期状態では
+![](./sample1.png)  
+このように全ての作品が表示されます。  
+例えば上のフォームに100, 下のフォームに3000と入力して[DLsite](https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG44418.html)にアクセスしてみると、  
 ![](./sample2.png)  
-このように1000円以下の商品しか表示されないようになります。  
+このように100円以上、3000円以下の商品しか表示されないようになります。  
 DLsiteをみている時にフォームから値を送り直した場合は、ページをリロードしてください。  
