@@ -8,7 +8,7 @@
       "default_popup": "popup.html"
     },
     "content_scripts": [{
-      "matches": ["https://www.dlsite.com/*/works/*", "https://www.dlsite.com/*/fsr/*", "https://www.dlsite.com/*/circle/*"],
+      "matches": ["https://www.dlsite.com/*/works/*", "https://www.dlsite.com/*/fsr/*", "https://www.dlsite.com/*/circle/*", "https://www.dlsite.com/maniax/campaign/*"],
       "js": [
         "content.js"
       ]
